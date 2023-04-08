@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    {
+      "task": "ooqoiq98989h899",
+      "id": 3
+    },
+    {
+      "task": "adssadasd",
+      "id": 4
+    },
+    {
+      "task": "dasdasadasdadadad",
+      "id": 7
+    },
+    {
+      "task": "wqee331323",
+      "id": 8
+    },
+    {
+      "task": "Now we can use the React-Redux hooks to let React components interact with the Redux store. We can read data from the store with useSelector, and dispatch actions using useDispatch. Create a src/features/counter/Counter.js file with a <Counter> component inside, ",
+      "id": 9
+    },
+    {
+      "task": "dfasfsdda asdasdd sdas dsa dsa sakd asbdaksdas",
+      "id": 10
+    },
+    {
+      "task": "logical task",
+      "id": 11
+    },
+    {
+      "task": "fdsdffdfv",
+      "id": 12
+    },
+    {
+      "task": "bcbcvccfcv",
+      "id": 13
+    }
+  ],
+  "new": [
+    {
+      "data": "new data",
+      "id": 1
+    }
+  ]
+}

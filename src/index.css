@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(180deg, #e9f7ff 0, #fff 100%);
+  background-repeat: no-repeat;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* common styling starts */
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay {
+  background: rgb(0 0 0 / 13%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.margin-x {
+  margin: 10px !important;
+}
+
+.border-radius-20 {
+  border-radius: 20px;
+}
+
+.block-ele {
+  display: block;
+  width: 100vw;
+}
+
+.button-comm {
+  margin: 5px 5px !important;
+  width: 50px;
+  display: inline-block;
+  height: 20px;
+  font-size: 12px !important;
+}
+
+.css-16000qm {
+  background: white !important;
+}
+
+.icon-btn-style {
+  background-color: #eaf5fe;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 10px;
+  color:#579fe7;
+}
+
+.icon-btn-style-deleted {
+background-color: #feeaea;
+border-radius: 50px;
+padding: 10px;
+margin: 10px;
+color: #950000;
+}
+
+.task-text-style {
+  padding: 10px;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.copyright {
+  text-align: center;
+  color: grey;
+}
+
+.my-10 {
+  margin: 10px 0;
+}
+
+/* components styling ends */
