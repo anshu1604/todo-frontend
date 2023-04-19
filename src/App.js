@@ -3,7 +3,7 @@ import './App.css';
 import Home from './pages/Home';
 
 function App() {
-  console.log("helloooooooo")
+  console.log("bhooooooooot")
   return (
     <Grid className="App">
       <Home />
