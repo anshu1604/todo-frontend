@@ -6,7 +6,7 @@ name: Node.js CI
 on:
   push:
     branches: [ "dev" ]
-    
+
 jobs:
   build:
 
@@ -24,5 +24,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: pm2 restart npm --name todo-f -- run start
+    - run: sudo rm -r node_modules/
+    - run: sudo rm package-lock.json
+    - run: npm i
+    - run: pm2 delete todo-f
+    - run: pm2 start npm --name todo-f -- run start
